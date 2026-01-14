@@ -1,0 +1,22 @@
+{
+  "name": "miniswap",
+  "version": "1.0.0",
+  "description": "MiniSwap - 简易DEX实现项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd smart-contracts && npm test",
+    "deploy": "cd smart-contracts && npm run deploy",
+    "node": "cd smart-contracts && npm run node",
+    "frontend": "cd frontend && npm start",
+    "install-all": "npm install && cd smart-contracts && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "solidity",
+    "dex",
+    "swap",
+    "liquidity",
+    "ethereum"
+  ],
+  "author": "",
+  "license": "MIT"
+}
